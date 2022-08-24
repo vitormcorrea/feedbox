@@ -75,8 +75,8 @@ const Pesquisa = () => {
                         
                         { notas.map(nota => {
                             return (
-                                <label for={nota} className='block w-1/6 text-center'>
-                                    <input type='radio' name='Nota' id={nota} value={nota} onChange={changeForm} /> 
+                                <label className='block w-1/6 text-center'>
+                                    <input type='radio' name='Nota' value={nota} onChange={changeForm} /> 
                                     <br></br>
                                     {nota}
                                 </label>
